@@ -10,10 +10,10 @@ For this shell prompt to be practical, many common features have been replaced b
 the [iTerm2 Status Bar](https://www.iterm2.com/documentation-status-bar.html). It gives it quite
 a unique look without sacrificing (as) many features.
 
-**(Lack of) features:**
-- No current directory.
-- No username.
-- No git support.
+**Features replaced by Status Bar:**
+- Current directory.
+- Username.
+- Git support.
 
 **Features:**
 - Prompt title based on the great [pure](https://github.com/rafaelrinaldi/pure) theme.
