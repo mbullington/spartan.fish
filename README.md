@@ -26,7 +26,7 @@ a unique look without sacrificing (as) many features.
 
 **With [Fisher](https://github.com/jorgebucaran/fisher):**
 ```sh
-fisher add mbullington/spartan.fish
+fisher add mbullington/spartan
 ```
 
 If not using Fisher, you'll also need to make sure `fishpkg/fish-humanize-duration`
