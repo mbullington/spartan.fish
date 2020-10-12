@@ -47,7 +47,7 @@ end
 
 function __spartan_right_prompt_time
   set -l prettydate (__spartan_date.24h_mm)
-  __spartan_segment_right: __elementary_color_grey blue (inline: (bold: " $prettydate "))
+  __spartan_segment_right: $__elementary_color_grey blue (inline: (bold: " $prettydate "))
   set -g __spartan_right_prompt_stamp (__spartan_date.now)
 end
 
@@ -67,18 +67,18 @@ function fish_right_prompt
   end
 
   if [ $last_status != 0 ]
-    __spartan_segment_right: red __elementary_color_grey (inline: (bold: " $last_status "))
+    __spartan_segment_right: red $__elementary_color_grey (inline: (bold: " $last_status "))
   end
 
   if not test -z $fish_private_mode
-    __spartan_segment_right: white __elementary_color_grey (inline: " incognito ")
+    __spartan_segment_right: white $__elementary_color_grey (inline: " incognito ")
   end
 
   if test -z $__fish_exec_duration
   # command has to be running for more than 5 seconds
   else if [ $__fish_exec_duration -ge 5 ]
     set -l prettyduration (echo $__fish_exec_duration"000" | humanize_duration)
-    __spartan_segment_right: green __elementary_color_grey (inline: (bold: " "$prettyduration" "))
+    __spartan_segment_right: green $__elementary_color_grey (inline: (bold: " "$prettyduration" "))
   end
 
   __spartan_segment_right_close
