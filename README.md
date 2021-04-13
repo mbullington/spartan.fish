@@ -29,7 +29,7 @@ a unique look without sacrificing (as) many features.
 fisher add mbullington/spartan
 ```
 
-If not using Fisher, you'll also need to make sure `fishpkg/fish-humanize-duration`
+If not using Fisher, you'll also need to make sure `jorgebucaran/humantime`
 and `oh-my-fish/plugin-technicolor` are included. Fisher will take care of this automatically.
 
 ## License

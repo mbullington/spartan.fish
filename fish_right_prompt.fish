@@ -77,7 +77,7 @@ function fish_right_prompt
   if test -z $__fish_exec_duration
   # command has to be running for more than 5 seconds
   else if [ $__fish_exec_duration -ge 5 ]
-    set -l prettyduration (echo $__fish_exec_duration"000" | humanize_duration)
+    set -l prettyduration (echo $__fish_exec_duration"000" | humantime)
     __spartan_segment_right: green $__elementary_color_grey (inline: (bold: " "$prettyduration" "))
   end
 
