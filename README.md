@@ -26,7 +26,7 @@ a unique look without sacrificing (as) many features.
 
 **With [Fisher](https://github.com/jorgebucaran/fisher):**
 ```sh
-fisher add mbullington/spartan
+fisher add mbullington/spartan.fish
 ```
 
 If not using Fisher, you'll also need to make sure `jorgebucaran/humantime`
