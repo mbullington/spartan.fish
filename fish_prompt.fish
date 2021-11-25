@@ -6,7 +6,7 @@ function fish_prompt
     set_color red
   end
 
-  inline: "▲ "
+  inline: ":= "
 
   set_color normal
 end
