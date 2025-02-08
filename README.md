@@ -1,6 +1,6 @@
 # spartan.fish
 
-A colorful Fish shell prompt with zero features. Pairs very well with iTerm2 status bar.
+A colorful Fish shell prompt with "spartan" features.
 
 ![screenshot](./readme/screenshot.png)
 
@@ -26,7 +26,7 @@ a unique look without sacrificing (as) many features.
 
 **With [Fisher](https://github.com/jorgebucaran/fisher):**
 ```sh
-fisher add mbullington/spartan.fish
+fisher add https://codeberg.org/mbullington/spartan.fish
 ```
 
 If not using Fisher, you'll also need to make sure `jorgebucaran/humantime`
